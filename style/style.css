@@ -64,10 +64,10 @@
     font-weight:600;
 }
 #product_container{
-    margin:167px 184px 300px 300px;
-    width:1320px;
     height:871px;
     text-align:center;
+    justify-content: center;
+    margin:100px 0;
     
 }
 #product_container .product_header>p{
@@ -79,7 +79,6 @@
     margin:16px;
 }
 #product_container .product_header .heading{
-    width:1320px;
     justify-content: center;
     display:flex;
 }
