@@ -120,3 +120,50 @@
     margin:24px;
 
 }
+.about-us{
+    display:flex;
+}
+.about-us-img{
+    width:960px;
+    height:671px;
+}
+.margin{
+    text-align: center;
+    margin:137px 150px 50px 77px;
+}
+.about-us-content .margin>h1{
+    font-size:48px;
+    margin-bottom:24px;
+}
+.about-us-content .margin>p{
+    color:rgb(16, 16, 16);
+    opacity:0.8;
+    font-size:24px;
+    margin-bottom:48px;
+}
+.follow-btn>h3{
+    color:rgb(16, 16, 16);
+    opacity:0.6;
+    font-size:32px;
+    padding:30px;
+    border:1px solid gray;
+    border-right:none;
+    text-align:center;
+    cursor:pointer;
+    text-decoration: none;
+}
+.follow-btn a{
+    text-decoration: none;
+    color:rgb(16, 16, 16);
+}
+.social{
+    margin-top:50px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+}
+.social img{
+    cursor:pointer;
+}
