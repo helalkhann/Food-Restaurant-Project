@@ -120,6 +120,13 @@
     margin:24px;
 
 }
+#product_container .cart p{
+    color:rgb(16, 16, 16);
+    font-size:18px;
+    line-height: 28px;
+    font-weight:500px;
+    text-align: center;
+}
 .about-us{
     display:flex;
 }
@@ -166,4 +173,54 @@
 }
 .social img{
     cursor:pointer;
+}
+#main-card{
+    width:100%;
+    margin-top:216px;
+    margin-bottom:124px;
+    
+}
+.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .cart{
+    width:424px;
+}
+.card .cart img{
+    width:424px;
+    height:283px;
+}
+
+.card .cart h2{
+    width:187px;
+    height:56px;
+    background-color:rgba(82, 195, 3, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:32px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.card .cart h1{
+    color:rgb(16, 16, 16);
+    font-size:40px;
+    margin:24px;
+
+}
+
+.card .cart p{
+    color:rgb(16, 16, 16);
+    font-size:18px;
+    line-height: 28px;
+    font-weight:500px;
+    text-align: center;
+}
+#main-card .card-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
 }
